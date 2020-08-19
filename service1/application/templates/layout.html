@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>{{ title }} - Page</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>{{  title  }} Page</h1>
+        </div>
+        
+        <div class="content">
+            {% block body_content %}{% endblock %}
+        </div>
+    </body>
+</html>
